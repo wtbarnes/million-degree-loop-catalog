@@ -1,0 +1,43 @@
+site_name: Million-Degree Loops Catalog
+site_description: Catalog of loop coordinates traced from AIA images and visible in AIA and EIS
+site_author: Will Barnes
+site_url: 'https://wtbarnes.github.io/million-degree-loop-catalog'
+
+# Repository
+repo_name: wtbarnes/million-degree-loop-catalog
+repo_url: https://github.com/wtbarnes/million-degree-loop-catalog
+
+nav:
+  - About: index.md
+
+theme:
+  name: 'material'
+  palette:
+    - scheme: default
+      toggle:
+      icon: material/lightbulb-outline
+      name: Switch to dark mode
+      primary: amber
+      accent: 'deep orange'
+    - scheme: slate
+      toggle:
+      icon: material/lightbulb
+      name: Switch to light mode
+    
+
+docs_dir: webpage
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+# Social/Contact
+extra:
+  social:
+    - icon: 'fontawesome/solid/globe'
+      link: 'https://wtbarnes.github.io/'
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/wtbarnes'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/wtbarnes_'
